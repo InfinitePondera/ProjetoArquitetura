@@ -1,0 +1,9 @@
+type Query {
+    eventoById(id: ID): Evento
+}
+
+type Evento {
+    id: ID
+    nome: String
+    detalhes: String
+}
